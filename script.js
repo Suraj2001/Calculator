@@ -4,7 +4,7 @@ let currentinput='0'
 const calculatorscreen=document.querySelector(".calculator-screen")
 
 const updatescreen=(number)=>{
-    calculatorscreen.value=currentinput
+    calculatorscreen.value=number
 }
 
 const numbers = document.querySelectorAll(".number")
